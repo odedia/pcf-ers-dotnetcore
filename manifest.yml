@@ -1,0 +1,8 @@
+---
+applications:
+- name: ers
+  memory: 768M
+  instances: 1
+  random-route: true
+  path: src/bin/Debug/netcoreapp2.1/publish
+  services: []
